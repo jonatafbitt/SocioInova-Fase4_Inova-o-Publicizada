@@ -1,0 +1,73 @@
+{
+  "veredito": "ok",
+  "n_registros_csv": 1626,
+  "n_casados_rede": 6608,
+  "n_descartados": 3432680,
+  "linhas_rejeitadas": 0,
+  "cobertura_por_raiz": {
+    "INSTITUTO FEDERAL DE": 6060,
+    "CENTRO FEDERAL DE EDUCAC": 548,
+    "COLEGIO PEDRO II": 0,
+    "crosswalk_cnpj": 0
+  },
+  "membros_ausentes": [],
+  "membros": {
+    "PATENTES_DEPOSITANTES.csv": {
+      "membro_encontrado": true,
+      "colunas_reais": [
+        "codigo_interno",
+        "numero_inpi",
+        "ordem",
+        "pais",
+        "estado",
+        "depositante",
+        "cgccpfdepositante",
+        "tipopessoadepositante",
+        "data_inicio_depositante",
+        "data_fim_depositante"
+      ],
+      "colunas_ausentes": [],
+      "encoding": "utf-8",
+      "delimitador": ","
+    },
+    "PATENTES_CONTEUDO.csv": {
+      "membro_encontrado": true,
+      "colunas_reais": [
+        "codigo_interno",
+        "numero_inpi",
+        "titulo",
+        "resumo"
+      ],
+      "colunas_ausentes": [],
+      "encoding": "utf-8",
+      "delimitador": ","
+    },
+    "PATENTES_DADOS_BIBLIOGRAFICOS.csv": {
+      "membro_encontrado": true,
+      "colunas_reais": [
+        "codigo_interno",
+        "numero_inpi",
+        "data_deposito",
+        "data_protocolo",
+        "data_publicacao",
+        "numero_pct",
+        "numero_wo",
+        "data_publicacao_wo",
+        "data_entrada_fase_nacional",
+        "sigilo"
+      ],
+      "colunas_ausentes": [],
+      "encoding": "utf-8",
+      "delimitador": ","
+    }
+  },
+  "pico_memoria_mb": 598.891,
+  "erro": null,
+  "fr1_aceito": true,
+  "crosswalk_cnpj": {
+    "presente": false,
+    "n_cnpj_validos": 0
+  },
+  "limite_memoria_mb": 2048,
+  "dentro_do_limite": true
+}

@@ -1,0 +1,23 @@
+{
+  "n_portais_total": 1,
+  "n_portais_raspados": 1,
+  "n_itens_total": 20,
+  "n_itens_novos": 0,
+  "n_itens_ja_existentes": 20,
+  "portais_com_aviso": [],
+  "portais_raspados": [
+    {
+      "instituicao": "IFAL",
+      "url": "https://ifal.edu.br",
+      "n_itens": 20,
+      "fonte": "rss"
+    }
+  ],
+  "erros_por_portal": {},
+  "metadados": {
+    "versao_modulo": "1.4.0",
+    "gerado_em": "2026-08-31T20:42:58",
+    "config": "C:\\Users\\jonat\\OneDrive\\Área de Trabalho\\AGENTE_PUBLICIZAÇÃO DAS INOVAÇÕES\\rfepct-inovacao-rag\\config\\urls_rede_federal.json",
+    "portal_filtro": "IFAL"
+  }
+}

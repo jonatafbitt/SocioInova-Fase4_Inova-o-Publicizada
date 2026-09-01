@@ -1,0 +1,10 @@
+# Ambientes e caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Binários grandes / dumps de download (regeneráveis)
+data/raw/patentes.zip

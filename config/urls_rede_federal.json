@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "descricao": "Dicionário de alvos (URLs base) da RFEPCT para coleta do corpus publicizado.",
+    "fonte": "endereços dos portais....md (dicionário oficial)",
+    "uso": "Consumido pelos scrapers (stories 1.2-1.4). Nenhum download ocorre nesta etapa de scaffold.",
+    "metodologia_inpi": {
+      "aceita": ["https://www.gov.br/inpi/pt-br/acesso-a-informacao/dados-abertos", "http://dadosabertos.inpi.gov.br/"],
+      "rejeitada": "BuscaWeb (bloqueio por CAPTCHA/sessao/IP)"
+    }
+  },
+  "orgaos_centrais": {
+    "MEC": "https://www.gov.br/mec/pt-br",
+    "MCTI": "https://www.gov.br/mcti/pt-br",
+    "CONIF": "https://conif.org.br/",
+    "INPI": {
+      "portal": "https://www.gov.br/inpi/pt-br",
+      "dados_abertos": {
+        "pagina": "https://www.gov.br/inpi/pt-br/acesso-a-informacao/dados-abertos",
+        "endpoint_repositorio": "http://dadosabertos.inpi.gov.br/"
+      }
+    }
+  },
+  "centros_federais_e_colegio_pedro_ii": {
+    "CEFET-MG": "https://www.cefetmg.br",
+    "CEFET-RJ": "https://www.cefet-rj.br",
+    "Colégio Pedro II": "https://www.cp2.g12.br"
+  },
+  "institutos_federais": {
+    "Norte": {
+      "IFAC": "https://ifac.edu.br",
+      "IFAP": "https://ifap.edu.br",
+      "IFAM": "https://ifam.edu.br",
+      "IFPA": "https://ifpa.edu.br",
+      "IFRO": "https://ifro.edu.br",
+      "IFRR": "https://ifrr.edu.br",
+      "IFTO": "https://ifto.edu.br"
+    },
+    "Nordeste": {
+      "IFAL": "https://ifal.edu.br",
+      "IFBA": "https://portal.ifba.edu.br",
+      "IF Baiano": "https://ifbaiano.edu.br",
+      "IFCE": "https://ifce.edu.br",
+      "IFMA": "https://ifma.edu.br",
+      "IFPB": "https://ifpb.edu.br",
+      "IFPE": "https://ifpe.edu.br",
+      "IFSertãoPE": "https://ifsertao-pe.edu.br",
+      "IFRN": "https://portal.ifrn.edu.br",
+      "IFPI": "https://ifpi.edu.br",
+      "IFS": "https://ifs.edu.br"
+    },
+    "Centro-Oeste": {
+      "IFB": "https://ifb.edu.br",
+      "IFG": "https://ifg.edu.br",
+      "IF Goiano": "https://ifgoiano.edu.br",
+      "IFMT": "https://ifmt.edu.br",
+      "IFMS": "https://ifms.edu.br"
+    },
+    "Sudeste": {
+      "IFES": "https://ifes.edu.br",
+      "IFF": "https://iff.edu.br",
+      "IFMG": "https://ifmg.edu.br",
+      "IFNMG": "https://ifnmg.edu.br",
+      "IF Sudeste MG": "https://ifsudestemg.edu.br",
+      "IFSULDEMINAS": "https://ifsuldeminas.edu.br",
+      "IFTM": "https://iftm.edu.br",
+      "IFRJ": "https://ifrj.edu.br",
+      "IFSP": "https://ifsp.edu.br"
+    },
+    "Sul": {
+      "IFPR": "https://ifpr.edu.br",
+      "IFRS": "https://ifrs.edu.br",
+      "IFSC": "https://ifsc.edu.br",
+      "IFC": "https://ifc.edu.br",
+      "IFSUL": "https://ifsul.edu.br",
+      "IF Farroupilha": "https://iffarroupilha.edu.br"
+    }
+  }
+}

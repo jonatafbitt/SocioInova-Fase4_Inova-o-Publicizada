@@ -1,0 +1,11 @@
+beautifulsoup4
+requests
+playwright
+pandas
+chromadb
+sentence-transformers
+langchain
+ollama
+streamlit
+psutil
+pytest
