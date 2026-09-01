@@ -1,0 +1,20 @@
+{
+  "n_total_corpus": 1646,
+  "n_candidatos_janela_com_texto": 626,
+  "n_fora_janela": 705,
+  "n_texto_vazio": 315,
+  "n_chunks_gerados": 626,
+  "n_chunks_adicionados": 0,
+  "n_chunks_ja_existentes": 626,
+  "n_documentos_indexados": 626,
+  "modelo": "paraphrase-multilingual-MiniLM-L12-v2",
+  "colecao": "corpus_rfepct",
+  "db_path": "data/chroma_db",
+  "chunks_por_documento_max": 1,
+  "erros": [],
+  "metadados": {
+    "versao_modulo": "2.1.0",
+    "corpus_csv": "data/processed/corpus_rfepct.csv",
+    "alvo_tokens": 400
+  }
+}

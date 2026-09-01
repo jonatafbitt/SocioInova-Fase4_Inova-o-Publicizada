@@ -8,3 +8,6 @@ __pycache__/
 
 # Binários grandes / dumps de download (regeneráveis)
 data/raw/patentes.zip
+
+# Persistência vetorial do ChromaDB (binários regeneráveis pela Story 2.1)
+data/chroma_db/

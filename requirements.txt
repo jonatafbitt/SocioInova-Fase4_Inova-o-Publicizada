@@ -2,8 +2,14 @@ beautifulsoup4
 requests
 playwright
 pandas
-chromadb
-sentence-transformers
+# === Epic 2 — vetorização local (Story 2.1) ===
+# Versões fixadas e validadas em Python 3.14 (instalação reproduzível/local).
+# `chromadb`, `sentence-transformers` e `torch` convivem nesta combinação;
+# `torch==2.13.0+cpu`/`transformers` são resolvidas como dependências.
+chromadb==1.5.9
+sentence-transformers==6.0.1
+numpy==2.5.2
+# === Fim Epic 2 ===
 langchain
 ollama
 streamlit
